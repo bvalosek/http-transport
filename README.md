@@ -1,5 +1,8 @@
 # HttpTransport
 
+[![Build Status](https://travis-ci.org/bvalosek/http-transport.png?branch=master)](https://travis-ci.org/bvalosek/http-transport)
+[![NPM version](https://badge.fury.io/js/http-transport.png)](http://badge.fury.io/js/http-transport)
+
 A basic isomorphic Javascript interface around HTTP requests
 
 ## Installation
