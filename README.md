@@ -23,7 +23,8 @@ $ npm install http-transport
 
 This is a very small wrapper around the
 [http-invoke](https://github.com/jakutis/httpinvoke) module that compresses the
-external API into u four primary HTTP verbs as methods that return a `Promise`.
+external API into the four primary HTTP verbs as methods that return a
+`Promise`.
 
 The `HttpTransport` class is meant to be instantiated once and shared
 throughout the application when domain code needs access to the HTTP layer,
