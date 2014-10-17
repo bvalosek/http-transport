@@ -1,6 +1,6 @@
 {
   "name": "http-transport",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A basic isomorphic Javascript interface around HTTP requests",
   "author": {
     "name": "Brandon Valosek",
