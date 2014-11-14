@@ -36,6 +36,7 @@
   "dependencies": {
     "bluebird": "^2.3.2",
     "debug": "^2.0.0",
-    "httpinvoke": "^1.3.2"
+    "httpinvoke": "^1.3.2",
+    "jsonp-client": "^0.5.1"
   }
 }
