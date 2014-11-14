@@ -1,5 +1,11 @@
 # Change History
 
+## 1.1.0 (2014-11-14)
+
+* Deprecated `HttpTransport#del` method in favor of `HttpTransport#delete`
+* Made separate `AbstractTransport` interface class
+* Added `JsonpTransport` implementation
+
 ## 1.0.2 (2014-09-25)
 
 * Updated version of `httpinvoke` to reduce browser build size
