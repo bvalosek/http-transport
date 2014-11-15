@@ -84,13 +84,13 @@ transport.put('/users', { id: 123, name: 'Billy' })
   });
 ```
 
-### transport.del(url, params?): Promise
+### transport.delete(url, params?): Promise
 
 Execute a `DELETE` request with optional query parameters and return a `Promise` for
 the response.
 
 ```javascript
-transport.del('/users', { id: 123 })
+transport.delete('/users', { id: 123 })
   .then(function(resp) {
     ...
   });
