@@ -110,6 +110,20 @@ var restService = new HttpTransport('http://awesome-rest-service.com/api/v2');
 restService.get('/users').then(...);
 ```
 
+## JSONP
+
+The `JsonpTransport` class also implements the `AbstractTransport` interface
+and can be used the same as the `HttpTransport` class, except it will throw an
+error if any method other than `GET` is used.
+
+```javascript
+var JsonpTransport = require('http-transport').JsonpTransport;
+
+var transport = new JsonpTransport();
+
+transport.get('http://api.external.com/').then(...);
+```
+
 ## Testing
 
 ```
