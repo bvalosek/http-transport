@@ -1,7 +1,7 @@
 {
   "name": "http-transport",
   "version": "1.0.3",
-  "description": "A basic isomorphic Javascript interface around HTTP requests",
+  "description": "A basic isomorphic Javascript interface and implementations for HTTP requests",
   "author": {
     "name": "Brandon Valosek",
     "email": "bvalosek@gmail.com",
@@ -17,25 +17,11 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "tape": "^3.0.0"
-  },
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/6..latest",
-      "chrome/28..canary",
-      "firefox/23..nightly",
-      "safari/5.1..latest",
-      "opera/latest",
-      "opera/next",
-      "iphone/latest",
-      "ipad/latest",
-      "android-browser/latest"
-    ]
+    "tape": "^3.0.3"
   },
   "dependencies": {
-    "bluebird": "^2.3.2",
-    "debug": "^2.0.0",
+    "bluebird": "^2.3.11",
+    "debug": "^2.1.0",
     "httpinvoke": "^1.3.2",
     "jsonp-client": "^0.5.1"
   }

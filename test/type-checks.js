@@ -19,10 +19,10 @@ test('method checks', function(t) {
   t.throws(function() { new HttpTransport().get(123); }, TypeError);
   t.throws(function() { new HttpTransport().post(123); }, TypeError);
   t.throws(function() { new HttpTransport().put(123); }, TypeError);
-  t.throws(function() { new HttpTransport().del(123); }, TypeError);
+  t.throws(function() { new HttpTransport().delete(123); }, TypeError);
 
   t.throws(function() { new HttpTransport().get(); }, TypeError);
   t.throws(function() { new HttpTransport().post(); }, TypeError);
   t.throws(function() { new HttpTransport().put(); }, TypeError);
-  t.throws(function() { new HttpTransport().del(); }, TypeError);
+  t.throws(function() { new HttpTransport().delete(); }, TypeError);
 });
