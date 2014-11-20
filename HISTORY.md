@@ -1,5 +1,9 @@
 # Change History
 
+## 1.1.1 (2014-11-20)
+
+* Fix issue with joining query strings to URLs
+
 ## 1.1.0 (2014-11-14)
 
 * Deprecated `HttpTransport#del` method in favor of `HttpTransport#delete`
