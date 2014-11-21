@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/bvalosek/http-transport.png?branch=master)](https://travis-ci.org/bvalosek/http-transport)
 [![NPM version](https://badge.fury.io/js/http-transport.png)](http://badge.fury.io/js/http-transport)
 
-A basic isomorphic Javascript interface around HTTP requests
+A basic promise-driven Javascript interface for HTTP requests.
 
 ## Installation
 
@@ -22,7 +22,7 @@ $ npm install http-transport
 ## Overview
 
 This is a very small wrapper around the
-[http-invoke](https://github.com/jakutis/httpinvoke) module that compresses the
+[httpinvoke](https://github.com/jakutis/httpinvoke) module that compresses the
 external API into the four primary HTTP verbs as methods that return a
 `Promise`.
 
@@ -94,20 +94,6 @@ transport.delete('/users', { id: 123 })
   .then(function(resp) {
     ...
   });
-```
-
-## Prefixing URLs
-
-You can create a `HttpTransport` instance that is initialized with a URL root
-to cause all request to be prefixed:
-
-```
-var restService = new HttpTransport('http://awesome-rest-service.com/api/v2');
-
-...
-
-// Will GET http://awesome-rest-service.com/api/v2/users
-restService.get('/users').then(...);
 ```
 
 ## JSONP

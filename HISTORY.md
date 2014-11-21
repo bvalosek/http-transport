@@ -1,5 +1,9 @@
 # Change History
 
+## 1.1.2 (2014-11-20)
+
+* Fixed issue where documentation described a feature that didn't exist
+
 ## 1.1.1 (2014-11-20)
 
 * Fix issue with joining query strings to URLs
