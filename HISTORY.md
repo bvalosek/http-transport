@@ -1,5 +1,9 @@
 # Change History
 
+## 1.1.3 (2014-11-24)
+
+* Fixed issue with GET params on server not working
+
 ## 1.1.2 (2014-11-20)
 
 * Fixed issue where documentation described a feature that didn't exist
